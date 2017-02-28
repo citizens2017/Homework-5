@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    margin: 0% 5% 0 5%;
+    width: 90%;
+    padding: 20px;
+    height: 100vh;
+    position: absolute;
+    top: 40px
+}
+.main {
+    background-color: #797575;
+    width: 101%;
+    margin-top: -10px;
+    margin-left: -15px;
+    padding: 5px;
+    margin-right: -15px
+}
+.menu {
+    background-color: #212123;
+    margin: 10px 60px 0px 60px;
+    padding: 0px;
+    border-radius: 5px
+}
+.project-name {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    color: #797575;
+    font-size: 20px
+}
+.sidebar {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    color: white;
+    padding-left: 0px
+}
+.sidebar li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    font-size: 17px
+}
+a {
+    color: #797575;
+    text-decoration: none;
+}
+.greeting {
+    margin: 10% 20% 50px 20%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 0px 1px #080606
+}
+.browse {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #29aad4;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px
+}
+.greeting h1 {
+    font-weight: normal;
+}
+.sidebar li:hover {
+    background-color: black;
+}
+.sidebar li:hover > a {
+    color: white
+}
+.block {  
+    width: 100%;
+    margin-top: 450px
+}
+.header {
+    display: inline-block;
+    width: calc(100% / 3 - 18px);
+    margin-right: 15px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 15px;
+}
+.header h1{
+    font-weight: normal;
+    color: #636b6b
+}
+.header p{
+    color: grey
+}
+.circus {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    border-radius: 75px;
+    margin:auto;
+}
+.view {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white
+}
+.content {
+   border-top: 1px solid lightgrey;
+   padding-top: 20px
+
+}
+.text {
+    display: inline-block;
+    width: calc(100% - 545px);
+    margin-right: 40px;
+    vertical-align: middle;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.good {
+    margin-top: 20px
+}
+.text1{
+    display: inline-block;
+    width: calc(100% - 545px);
+    margin-left: 40px;
+    vertical-align: middle;
+}
+.last {
+ margin-top: 20px
+}
+.content,
+.good,
+.last {
+    color: #4c4949;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom:50px 
+}
+.see {
+    color: #9e9e9e
+}
+.footer {
+    padding: 25px;
+    text-decoration: none;
+    margin-top: 150px;
+    font-size: 17px;
+}
+.footer a {
+    color: blue;
+    display: list-item;
+    list-style: circle;
+    
+}
+hr{
+    color: lightgrey;
+    position: relative;
+    top: 490px
+}
+ul{
+    display: inline-block;
+   }
+li{
+    display: list-item;
+}
+.block-with-content{
+   margin-top: 100px
+}
